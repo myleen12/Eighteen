@@ -1,26 +1,19 @@
 {
-  "name": "eighteen",
+  "name": "18",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/myleen12/Eighteen.git"
+    "start": "node server.js",
+    "watch": "nodemon"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/myleen12/Eighteen/issues"
-  },
-  "homepage": "https://github.com/myleen12/Eighteen#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^7.1.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.2.1",
     "nodemon": "^2.0.22"
   }
 }
